@@ -1,0 +1,24 @@
+parte 2:
+
+-¿Qué pasa cuando se corre el comando "tsc"?
+
+Al ejecutar el comando "tsc" compilamos(convertimos a JS) todos los archivos que esten dentro de la carpeta desde donde estemos parados en la
+consola, incluyendo archivos .json. Si seguido de el comando "tsc" incluimos un archivo especifico vamos a compilar solamente
+dicho archivo. 
+
+-¿Como esta organizada una clase?
+
+Una clase se organiza partiendo de sus "Variables Internas", seguidas por el "constructor", para luego culminar con los
+"Métodos Publicos" y "Métodos Privados".
+
+
+-¿Es correcto que un método auxiliar de una clase sea público?¿Por qué?
+
+No, no es correcto, este deberia ser privado o en su defecto protected, ya que no deberian tener acceso a tal nadie mas que
+no sean sus hijos por herencia o la misma clase y asi nadie mas pueda modificarla.
+
+-Enumerar las caracterísicas de una interfaz
+
+1-Tiene Metodos especificados pero sin definir su comportamiento.
+2-Son como un "Contrato" donde quienes la implementen estan obligados a implementar sus metodos.
+

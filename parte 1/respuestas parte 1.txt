@@ -1,0 +1,23 @@
+parte 1:
+-¿Cual es el beneficio de usar un lenguaje con tipos (Typescript)?
+para evitar errores en el tipeo y la declaracion de las variables con sus tipos hace que gran parte de los
+errores que surjan se puedan detectar al momento de escribir el código
+
+
+-¿A qué se llama variable interna?¿Por qué internas?
+
+Se denomina variable interna a toda aquella variable definida dentro de una función en donde solo va a existir dentro de
+dicha función y no va a poder ser modificada desde el exterior de la misma.
+
+-Explicar la diferencia entre composicion y herencia
+
+La composición se utiliza cuando a partir de una clase compleja la componemos de otras clases mas sencillas
+La herencia se utiliza cuando a partir de una clase padre, la clase hija hereda de esta sus metodos pero agregadando o 
+modificando sus funcionabilidad.
+
+-Explicar el mecanismo que provee Typescript para manejar casos en donde los parámetros 
+que le llegan a un método son inválidos
+el mecanimo implica la verificación de tipos en tiempo de compilación y puede detectar parámetros no válidos generando errores.
+
+
+
